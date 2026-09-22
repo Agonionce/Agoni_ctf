@@ -1,6 +1,7 @@
 # Direct dependency pins for reproducible Agonionce development environments.
 # Transitive dependencies are resolved by pip for the active Python platform.
 openai==3.3.0
+httpx==0.28.1
 PyYAML==6.0.3
 json-repair==0.63.2
 jsonschema==4.26.0
