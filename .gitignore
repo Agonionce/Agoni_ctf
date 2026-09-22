@@ -5,12 +5,12 @@ __pycache__/
 .vscode/
 .DS_Store
 .impeccable/
-.attachments/
-logs/
-checkpoints/
-experiences/
-workspace/
-.runtime/
+/.attachments/
+/logs/
+/checkpoints/
+/experiences/
+/workspace/
+/.runtime/
 node_modules/
 *.tsbuildinfo
 
@@ -219,7 +219,7 @@ tool_classification.json
 question.txt
 
 # Local R12 benchmark result records
-benchmark-results/
+/benchmark-results/
 
 # Private challenge intake material
-incoming/
+/incoming/
