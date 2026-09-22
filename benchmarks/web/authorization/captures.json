@@ -1,0 +1,6 @@
+{
+  "captures": [{
+    "request": {"request_id": "authorization-1", "method": "GET", "url": "http://localhost/reports"},
+    "response": {"status_code": 403, "headers": [["Content-Type", "application/json"]], "body": "{\"error\":\"access denied\",\"state\":\"authenticated\"}"}
+  }]
+}

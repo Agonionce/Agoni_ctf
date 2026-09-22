@@ -1,0 +1,12 @@
+{
+  "captures": [
+    {
+      "request": {"request_id": "state-1", "method": "GET", "url": "http://localhost/login"},
+      "response": {"status_code": 200, "headers": [["Content-Type", "application/json"]], "body": "{\"state\":\"anonymous\"}"}
+    },
+    {
+      "request": {"request_id": "state-2", "method": "POST", "url": "http://localhost/login", "parameters": {"username": "student"}},
+      "response": {"status_code": 200, "headers": [["Content-Type", "application/json"]], "body": "{\"state\":\"authenticated\",\"status\":\"success\"}"}
+    }
+  ]
+}

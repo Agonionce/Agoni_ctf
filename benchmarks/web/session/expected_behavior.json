@@ -1,0 +1,7 @@
+{
+  "expectations": [
+    {"kind": "endpoint", "path": "/account"},
+    {"kind": "authentication", "protected_endpoint": "/account", "status": "CHALLENGED"},
+    {"kind": "response", "format": "JSON", "error_pattern": "authentication_error"}
+  ]
+}

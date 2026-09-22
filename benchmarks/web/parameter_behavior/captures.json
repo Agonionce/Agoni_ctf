@@ -1,0 +1,12 @@
+{
+  "captures": [
+    {
+      "request": {"request_id": "parameter-1", "method": "GET", "url": "http://localhost/search?q=alpha"},
+      "response": {"status_code": 200, "headers": [["Content-Type", "text/html"]], "body": "<html><title>Search</title><p>one result</p></html>"}
+    },
+    {
+      "request": {"request_id": "parameter-2", "method": "GET", "url": "http://localhost/search?q=beta"},
+      "response": {"status_code": 200, "headers": [["Content-Type", "text/html"]], "body": "<html><title>Search</title><p>two different results</p></html>"}
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "benchmark_id": "api_behavior",
+  "name": "Fake JSON API Behavior",
+  "category": "api_behavior",
+  "description": "Static local evidence for a paginated JSON API shape.",
+  "source_files": ["source/app.py"],
+  "capture_file": "captures.json"
+}

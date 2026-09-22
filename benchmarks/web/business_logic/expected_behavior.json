@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"kind": "endpoint", "path": "/cart"},
+    {"kind": "parameter", "name": "quantity", "semantic_role": "business"},
+    {"kind": "parameter", "name": "action", "semantic_role": "business"},
+    {"kind": "application_behavior", "category": "business_logic"}
+  ]
+}

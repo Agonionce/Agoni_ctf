@@ -1,0 +1,8 @@
+{
+  "benchmark_id": "parameter_behavior",
+  "name": "Fake Parameter Behavior",
+  "category": "parameter_behavior",
+  "description": "Static response comparison for a user-controlled search parameter.",
+  "source_files": ["source/app.py"],
+  "capture_file": "captures.json"
+}

@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"kind": "endpoint", "path": "/login"},
+    {"kind": "state_transition", "from_state": "anonymous", "to_state": "authenticated"},
+    {"kind": "response", "format": "JSON"},
+    {"kind": "application_behavior", "category": "state_difference"}
+  ]
+}

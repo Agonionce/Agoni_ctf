@@ -1,0 +1,10 @@
+openai
+PyYAML
+json-repair
+jsonschema
+typer
+rich
+prompt_toolkit
+fastapi
+python-multipart
+uvicorn

@@ -1,0 +1,6 @@
+{
+  "captures": [{
+    "request": {"request_id": "file-1", "method": "POST", "url": "http://localhost/upload", "parameters": {"file": "sample.txt"}},
+    "response": {"status_code": 400, "headers": [["Content-Type", "application/json"]], "body": "{\"error\":\"file error: processing rejected\",\"status\":\"rejected\"}"}
+  }]
+}

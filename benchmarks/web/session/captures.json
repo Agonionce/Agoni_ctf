@@ -1,0 +1,6 @@
+{
+  "captures": [{
+    "request": {"request_id": "session-1", "method": "GET", "url": "http://localhost/account"},
+    "response": {"status_code": 401, "headers": [["Content-Type", "application/json"]], "body": "{\"error\":\"authentication required\",\"state\":\"anonymous\"}"}
+  }]
+}

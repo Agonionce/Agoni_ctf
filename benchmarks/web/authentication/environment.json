@@ -1,0 +1,6 @@
+{
+  "kind": "fake-local",
+  "network": "disabled",
+  "runtime": "static-captures",
+  "authorization": "repository fixture only"
+}

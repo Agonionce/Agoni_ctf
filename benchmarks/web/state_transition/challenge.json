@@ -1,0 +1,8 @@
+{
+  "benchmark_id": "state_transition",
+  "name": "Fake Session State Transition",
+  "category": "state_transition",
+  "description": "Static evidence for an anonymous-to-authenticated transition.",
+  "source_files": ["source/app.py"],
+  "capture_file": "captures.json"
+}

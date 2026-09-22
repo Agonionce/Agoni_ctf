@@ -1,0 +1,12 @@
+{
+  "captures": [
+    {
+      "request": {"request_id": "auth-1", "method": "GET", "url": "http://localhost/admin"},
+      "response": {
+        "status_code": 403,
+        "headers": [["Content-Type", "application/json"]],
+        "body": "{\"error\":\"forbidden\",\"state\":\"anonymous\"}"
+      }
+    }
+  ]
+}

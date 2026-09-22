@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"kind": "endpoint", "path": "/search"},
+    {"kind": "parameter", "name": "q", "semantic_role": "generic"},
+    {"kind": "response", "format": "HTML"},
+    {"kind": "application_behavior", "category": "response_difference"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "benchmark_id": "file_processing",
+  "name": "Fake File Processing",
+  "category": "file_processing",
+  "description": "Static local evidence for file-input processing behavior.",
+  "source_files": ["source/app.py"],
+  "capture_file": "captures.json"
+}

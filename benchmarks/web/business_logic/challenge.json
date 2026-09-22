@@ -1,0 +1,8 @@
+{
+  "benchmark_id": "business_logic",
+  "name": "Fake Business State Behavior",
+  "category": "business_logic",
+  "description": "Static evidence for application state controlled by business inputs.",
+  "source_files": ["source/app.py"],
+  "capture_file": "captures.json"
+}

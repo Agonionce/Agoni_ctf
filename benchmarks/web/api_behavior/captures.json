@@ -1,0 +1,6 @@
+{
+  "captures": [{
+    "request": {"request_id": "api-1", "method": "GET", "url": "http://localhost/api/items?page=1"},
+    "response": {"status_code": 200, "headers": [["Content-Type", "application/json"]], "body": "{\"items\":[{\"id\":1,\"name\":\"sample\"}],\"page\":1,\"total\":1}"}
+  }]
+}

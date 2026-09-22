@@ -1,0 +1,8 @@
+{
+  "benchmark_id": "authorization",
+  "name": "Fake Authorization Boundary",
+  "category": "authorization",
+  "description": "Static role-independent evidence for a denied local resource.",
+  "source_files": ["source/app.py"],
+  "capture_file": "captures.json"
+}

@@ -1,0 +1,8 @@
+{
+  "captures": [
+    {
+      "request": {"request_id": "business-1", "method": "POST", "url": "http://localhost/cart", "body": "{\"quantity\":2,\"action\":\"add\"}"},
+      "response": {"status_code": 200, "headers": [["Content-Type", "application/json"]], "body": "{\"status\":\"updated\",\"cart_count\":2}"}
+    }
+  ]
+}

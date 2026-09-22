@@ -1,0 +1,8 @@
+{
+  "benchmark_id": "authentication",
+  "name": "Fake Authentication Boundary",
+  "category": "authentication",
+  "description": "Static local evidence for a protected endpoint.",
+  "source_files": ["source/app.py"],
+  "capture_file": "captures.json"
+}

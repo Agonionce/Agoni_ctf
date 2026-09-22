@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"kind": "endpoint", "path": "/upload"},
+    {"kind": "parameter", "name": "file", "semantic_role": "file"},
+    {"kind": "response", "format": "JSON", "error_pattern": "file_processing_error"},
+    {"kind": "application_behavior", "category": "file_processing"}
+  ]
+}

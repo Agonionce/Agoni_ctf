@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"kind": "endpoint", "path": "/api/items"},
+    {"kind": "parameter", "name": "page", "semantic_role": "pagination"},
+    {"kind": "response", "format": "JSON"},
+    {"kind": "application_behavior", "category": "structured_response"}
+  ]
+}

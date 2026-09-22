@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"kind": "endpoint", "path": "/reports"},
+    {"kind": "authentication", "protected_endpoint": "/reports", "status": "CHALLENGED"},
+    {"kind": "response", "format": "JSON", "error_pattern": "authorization_error"},
+    {"kind": "application_behavior", "category": "access_control"}
+  ]
+}
